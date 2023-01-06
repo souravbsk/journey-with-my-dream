@@ -8,12 +8,45 @@ body {
     font-family: 'Work Sans', sans-serif;
 
 }
-
-/* hero css start   */
+/* default css  */
 .container {
     max-width: 1135px;
     margin: 0 auto;
 }
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    border: 0;
+    outline: none;
+    background-color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-primary:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+section {
+    margin-top: 130px;
+}
+
+.primary-title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.primary-pera {
+    color: #444343;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+/* hero css start   */
 
 .header {
     background-image: url('../images/banner/banner3.png');
@@ -26,25 +59,16 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content:end;
     align-items: center;
-    padding: 0 230px;
-    padding-top: 210px;
-    padding-bottom: 165px;
-    gap: 80px;
+    height: 100vh;
 }
 
-.hero-emptyDIv {
-    width: 50%;
-}
 
 .hero-content {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center; */
     width: 50%;
     text-align: end;
+    padding-left: 45px;
 
 }
 
@@ -63,33 +87,15 @@ body {
     margin-bottom: 30px;
 }
 
-.btn-primary {
-    font-size: 20px;
-    font-weight: 600;
-    color: #005FAC;
-    border: 0;
-    outline: none;
-    background-color: #ffffff;
-    padding: 20px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 /* hero css end */
 
-section {
-    margin-top: 130px;
-}
 
-main {
-    max-width: 1135px;
-    margin: 0 auto;
-}
 
 /* .previous plan css start  */
 .previous-year {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 90px;
 }
@@ -105,23 +111,13 @@ main {
     margin-top: 100px;
 }
 
-.primary-title {
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 25px;
-}
 
-.primary-pera {
-    color: #444343;
-    margin-bottom: 15px;
-    font-size: 16px;
-}
 
-.previou-list {
+.previous-list {
     list-style-position: inside;
 }
 
-.previou-list li {
+.previous-list li {
     list-style-type: disclosure-closed;
     margin-bottom: 10px;
 }
@@ -137,6 +133,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 85px;
 
 }
 
@@ -146,6 +143,8 @@ main {
 
 .skill-item img {
     margin-bottom: 25px;
+    width: 90px;
+    height: 90px;
 }
 
 .skill-item .skill-item-title {
@@ -162,11 +161,25 @@ main {
 }
 
 /* my plan css end */
+/* dream css start  */
+
+.dream-img img{
+    width: 100%;
+    height: auto;
+
+}
+.dream-content{
+    padding: 0;
+    flex: 1;
+}
+
+/* dream css end */
 
 /* call now css start  */
 .call-now {
     padding: 50px 65px;
-    background-image: linear-gradient(90deg, hwb(207 0% 33%) 0%, rgba(0, 95, 172, 0.173) 100%), url('../images/watch.png');
+    /* background-image: linear-gradient(90deg, hwb(207 0% 33%) 0%, rgba(0, 95, 172, 0.173) 100%), url('../images/watch.png'); */
+    background-image:url('../images/gradient1.png'), url('../images/watch.png');
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,8 +206,6 @@ main {
 }
 
 .footer-contaienr {
-    max-width: 1135px;
-    margin: 0 auto;
     padding: 130px 0;
     display: flex;
     justify-content: space-between;
@@ -229,9 +240,6 @@ main {
 .subscribe{
     flex:1;
 }
-
-
-
 .subscribe .primary-title {
     color: #ffffff;
     font-size: 25px;
@@ -252,6 +260,11 @@ main {
 .contact-footer .btn-primary{
     background: #005FAC;
     color: #ffffff;
+    transition: all 0.3s;
+
+}
+.contact-footer .btn-primary:hover{
+    background-color: hsl(207, 100%, 45%);
 }
 
 /* footer css end */
