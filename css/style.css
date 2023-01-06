@@ -8,6 +8,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 
 }
+
 /* default css  */
 .container {
     max-width: 1135px;
@@ -26,9 +27,11 @@ body {
     cursor: pointer;
     transition: all 0.3s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: hsl(0, 0%, 90%);
 }
+
 section {
     margin-top: 130px;
 }
@@ -59,7 +62,7 @@ section {
 
 .hero {
     display: flex;
-    justify-content:end;
+    justify-content: end;
     align-items: center;
     height: 100vh;
 }
@@ -163,12 +166,13 @@ section {
 /* my plan css end */
 /* dream css start  */
 
-.dream-img img{
+.dream-img img {
     width: 100%;
     height: auto;
 
 }
-.dream-content{
+
+.dream-content {
     padding: 0;
     flex: 1;
 }
@@ -178,8 +182,8 @@ section {
 /* call now css start  */
 .call-now {
     padding: 50px 65px;
-    /* background-image: linear-gradient(90deg, hwb(207 0% 33%) 0%, rgba(0, 95, 172, 0.173) 100%), url('../images/watch.png'); */
-    background-image:url('../images/gradient1.png'), url('../images/watch.png');
+    background-image: linear-gradient(90deg, hwb(207 0% 33%) 0%, rgba(0, 95, 172, 0.173) 100%), url('../images/watch.png');
+    /* background-image:url('../images/gradient1.png'), url('../images/watch.png'); */
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,25 +225,31 @@ section {
     color: #ffffff;
     margin-bottom: 25px;
 }
-.future-contact{
+
+.future-contact {
     color: #ffffff;
     margin-bottom: 15px;
 }
-.social-link{
+
+.social-link {
     margin-top: 30px;
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.social-link li{
+
+.social-link li {
     cursor: pointer;
 }
-.future{
+
+.future {
     flex: 1;
 }
-.subscribe{
-    flex:1;
+
+.subscribe {
+    flex: 1;
 }
+
 .subscribe .primary-title {
     color: #ffffff;
     font-size: 25px;
@@ -257,13 +267,15 @@ section {
     margin-bottom: 15px;
     width: 100%;
 }
-.contact-footer .btn-primary{
+
+.contact-footer .btn-primary {
     background: #005FAC;
     color: #ffffff;
     transition: all 0.3s;
 
 }
-.contact-footer .btn-primary:hover{
+
+.contact-footer .btn-primary:hover {
     background-color: hsl(207, 100%, 45%);
 }
 
